@@ -1,0 +1,24 @@
+{
+    "name": "salsoft/core",
+    "description": "All base funcationality and helpers will be there.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Arif Iqbal",
+            "email": "arif.iqbal@salsoft.net"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Salsoft\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Salsoft\\Providers\\SalsoftServiceProvider"
+            ]
+        }
+    }
+}
